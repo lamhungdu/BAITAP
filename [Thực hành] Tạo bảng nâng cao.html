@@ -11,18 +11,22 @@
 body {
     padding: 50px;
 }
+.mytd{
+    border-bottom-color: yellow;
+
+   
+}
 
 table {
     width: 100%;
     border-collapse: collapse;
+
+   
 }
 td,th {
     padding: 50px;
-    border: 1px solid white;
-   
-}
-.th_left{
-    border-top-left-radius: 1px;
+    border: 1px solid whitesmoke;
+    
 }
 th{
     font-family: 'Patua One', cursive;
@@ -33,15 +37,18 @@ th{
     padding:10px;
     background-color: #d61b06;
     border-color: white;
+    
 }
-td{
+td, tr
+{
     font-family: 'Open Sans', sans-serif;
     font: weight 50px;;
     color:#5f6062;
     font-size:13px;
     padding:10px 10px 10px 10px;
-    border-bottom:1px solid #e0e0e0;
+    border-bottom:1px solid tomato;
     text-align: center;
+    
 }
 
 .hover {
@@ -49,10 +56,10 @@ td{
 }
 </style>
 <body>
-    <h2 style="text-align: center;" > Thời Khóa Biểu</h2>
-    <table>
+    <h1 style="text-align: center; color: tomato; "  > Thời Khóa Biểu</h1>
+    <table border="1">
         <tr>
-            <th class="myth" rowspan=2>Thứ</th>
+            <th rowspan=2>Thứ</th>
             <th colspan=2>Hoạt động</th>
         </tr>
         <tr>
@@ -65,19 +72,19 @@ td{
             <td>HD trò chơi mới</td>
         </tr>
         <tr>
-            <td>Thứ 3</td>
+            <td>Thứ Ba</td>
             <td>Nhận biết tập nói</td>
             <td>Rèn nề nếp,kỹ năng sống</td>
         </tr>
         <tr>
-            <td>Thứ 4</td>
+            <td>Thứ Tư</td>
             <td>Âm Nhạc </td>
             <td>Vui chơi</td>
         </tr>
         <tr>
-            <td>Thứ 5</td>
-            <td>Văn Học</td>
-            <td>Nhận Biết các giá trị sống</td>
+            <td class="mytd">Thứ Năm</td>
+            <td class="mytd">Văn Học</td>
+            <td class="mytd">Nhận Biết các giá trị sống</td>
         </tr>
     </table>
 </body>
