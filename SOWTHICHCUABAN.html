@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>1. SỞ THÍCH CỦA BẠN</h1>
+<div style="width: 600px; background-color: rgb(191, 221, 191);">
+    <form style="background-color: rgb(199, 221, 209); width: 100%;" action="http://dulamhung.com.vn" method="POST">
+        
+        <table  style="width: 600px; height: 300px;">
+                <tr>
+                        <th colspan="2" style="background-color: orangered; color: white;">SỞ THÍCH CỦA BẠN</th>
+                </tr>
+                <tr>
+                        <th style="color: blue;" align="right"> Họ và tên</th>
+                        <th align="left"><input type="text" placeholder="Nhập Họ & Tên" name="Name"></th>
+                </tr>
+                <tr>
+                       <th style="color: blue;" align="right">Email</th>
+                       <th align="left"><input placeholder="Nhập Email" name="email"></th> 
+                </tr>
+                <tr>
+                    <th style="color: blue;" align="right">Sở thích</th>
+                    <th>
+                        <table style="color: red;">
+                            <tr>
+                                <th ><label><input type="checkbox" name="sơthich" value="Thể thao" checked>Thể thao</label></th>
+                                <th><label><input type="checkbox" name="sothich" value="Âm nhạc">Âm nhạc</label></th>
+                                <th><label><input type="checkbox" name="sothich" value="Đọc sách">Đọc sách</label></th>
+                            </tr>
+                                     <tr>
+                                     <th><label><input  type="checkbox" name="sothich" value="Lướt web">Lướt web</label></th>
+                                     <th> <label><input type="checkbox" name="sothich" value="Chơi game">Chơi game</label></th>
+                                     <th><label><input  type="checkbox" name="sothich" value="Điện ảnh">Điện ảnh</label></th>
+                                     </tr>
+                            <tr>
+                                <th align="left"><label><input type="checkbox" name="sothich" value="Du lịch">Du lịch</label></th>
+                            </tr>
+                                 </table>
+
+                                 <tr > 
+                                    <th></th>
+                                    <th align="left">
+                                        <input type="submit" name="submit" value="Gửi thông tin"/>
+                                        <input type="reset" name="reset" value="Nhập lại"/>
+                                    </th>
+                                </tr>
+        </table>
+    </form>
+</div>
+<h1>2. ĐĂNG KÝ HỌC VIÊN</h1>
+<div style="background-color:yellowgreen;width: 50%;padding: 0px;">
+  <form action="http://dangkyhoc.com"  style="font-family: 'Times New Roman', Times, serif;" method="POST">
+    <table style="color: rgb(74, 14, 238);width: 100%;">
+        <tr>
+            <td colspan="5" style="background-color: blue;color: cornsilk;text-align: center;padding: 10px;width:50px;">ĐĂNG KÝ HỌC VIÊN</td>
+        </tr>
+        <td> Họ và tên</td>
+        <td><input type="text" name="yourname" placeholder="Nhập Họ & Tên" size="35"></td>
+      </tr>
+      <tr>
+          <td>Ngày sinh</td>
+          <td><input type="date" name="birthday""></td>
+      </tr>
+      <tr>
+          <td>Giới tính</td>
+          <td>
+            <label><input type="radio" name="Gender" value="male">Nam</label> 
+            <label><input type="radio" name="Gender" value="female">Nữ</label>
+        </td>
+      </tr>
+      <tr>
+          <td>Địa chỉ</td>
+          <td><textarea cols="30" rows="5" name="address" placeholder="Thông tin địa chỉ"></textarea></td>
+      </tr>
+      <tr>
+          <td>Lớp</td>
+          <td>
+              <select name="clacs">
+                  <option>--Chọn lớp--</option>
+                  <option>--CDLA0509-001--</option>
+                  <option>--CDLA0509-002--</option>
+              </select>
+          </td>
+      </tr>
+      <tr>
+          <td>Email</td>
+          <td><input type="email" name="Email" placeholder="abc@gmail.com"></td>
+      </tr>
+      <tr>
+          <td>Điện thoại</td>
+          <td><input type="text" name="Phone" placeholder="+84" size="1"> - 
+              <input type="text" name="Phone" placeholder="xxxxxxxxx" size="9"></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td ><input type="submit" name="submit" value="Đăng ký";> 
+              <input type="reset" name="reset" value="Nhập lại";></td>
+      </tr>
+  
+  
+    </table>
+  </form>
+
+</div>
+<br><br><br><br><br>
+
+</body>
+</html>
