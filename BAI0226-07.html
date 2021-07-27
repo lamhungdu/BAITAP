@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BÀI 02-26-07</title>
+</head>
+<body>
+    <div>
+        <form action="http://lamdu.com" method="POST">
+        <h2 >Reservation Request</h2>
+    <fieldset>
+        <legend style="color: blue;">General intormation</legend>     
+        <table >
+       <tr>
+        <td>Arrival date:</td>
+        <td style="width:5%;"><input type="date" name="date"></td>
+        <td style="color: red;"> Arrival date is invalid.</td>
+       </tr>
+       <tr>
+        <td>Nights:</td>
+        <td><input type="text" name="date"></td>
+        <td style="color: red; ;" > Nights must be a number.</td>
+       </tr>
+       <tr>
+           <td>Adults:</td>
+           <td>
+               <select>
+                   <option >1</option>
+                   <option >2</option>
+                   <option >3</option>
+               </select>
+           </td>
+           </tr>
+           <tr>
+            <td>Children:</td>
+            <td>
+                <select>
+                    <option >0</option>
+                    <option >1</option>
+                    <option >2</option>
+                </select>
+            </td>
+           </tr>
+
+
+        </table>
+    </fieldset>
+      
+    </div>
+    <div>
+       
+            <fieldset>
+                <legend style="color: blue;">Prefererces</legend>
+                <p>Room type: <label><input type="radio" name="check" value="Room">Standard</label>
+                    <label><input type="radio" name="check" value="Room">Business</label>
+                    <label><input type="radio" name="check" value="Room">Suite</label>
+                
+                </p>
+                <p>Bed type: <label><input type="radio" name="check" value="Room">Standard</label>
+                    <label><input type="radio" name="check" value="Room">Double Double</label>
+                </p>
+                <p>
+                    <label><input type="checkbox" name="check" value="Room">Smoking</label>
+                </p>
+            </fieldset>
+     
+    </div>
+    <div>
+        <fieldset>
+            <legend style="color: blue;">Contact Information</legend>     
+            <table>
+           <tr>
+            <td>Name:</td>
+            <td style="width:5%;"><input type="text" name="name"></td>
+            <td style="color: red;"> Name is required.</td>
+           </tr>
+           <tr>
+            <td>Email:</td>
+            <td><input type="text" name="date" placeholder="graceyahoo.com"></td>
+            <td style="color: red; ;" > Email address is invalid.</td>
+           </tr>
+           <tr>
+            <td>Phone:</td>
+            <td><input type="text" name="date" placeholder="123-456-789"></td>
+            <td style="color: red;"> Phone number is invalid.</td>
+           </tr>
+           </table>
+    </div><br>
+   
+    <p style="padding: 0 40px;">
+        <input style="text-align: center; padding: 0 30px;" type="submit" name="submit" value="Submit Reservation"></input>
+    <input style="text-align: center; padding: 0 50px;" type="reset" name="reset" value="Clear"></input>
+    </p>
+</form>
+</body>
+</html>
